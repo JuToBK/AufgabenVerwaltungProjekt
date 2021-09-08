@@ -1,7 +1,5 @@
 package aufgabenVerwaltungPackage;
 
-import java.util.Set;
-
 import org.eclipse.swt.SWT;
 import org.eclipse.swt.widgets.Display;
 import org.eclipse.swt.widgets.Shell;
@@ -33,7 +31,7 @@ public class VerwaltungGUI extends Shell {
 	 * @param display
 	 */
 	public VerwaltungGUI(Display display) {
-		super(display, Set.SHELL_TRIM);
+		super(display, SWT.SHELL_TRIM);
 		createContents();
 	}
 
